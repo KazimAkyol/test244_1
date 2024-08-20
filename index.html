@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Challenge</title>
+</head>
+<body>
+    <form action="result.html" method="get">
+    <h2>User Information Form</h2>
+
+    <div>
+        <label for="fname">Full Name:</label>
+        <br>
+        <input type="text" id="fname" name="Kullanici Adi">
+    </div>
+    <div>
+        <label for="eposta">Email Address:</label>
+        <br>
+        <input type="email" name="Kullanici emaili" id="eposta">
+    </div>
+    <div>
+        <label for="">Gender:</label>
+        <br>
+    <input type="radio" name="gender" id="gender1" value="Male">
+    <label for="gender1">Male</label>
+    <br>
+    <input type="radio" name="gender" id="gender2" value="Female">
+    <label for="gender2">Female</label>
+    <br>
+    <input type="radio" name="gender" id="gender3" value="Other">
+    <label for="gender3">Other</label>
+</div>
+<br>
+<div>
+    <label for="">Interests:</label>
+    <br>
+    <input type="checkbox" name="hobi" id="electronics" value="Electronics">
+    <label for="electronics">Electronics</label>
+    <br>
+    <input type="checkbox" name="hobi" id="books" value="Books">
+    <label for="books">Books</label>
+    <br>
+    <input type="checkbox" name="hobi" id="clothing" value="Clothing">
+    <label for="clothing">Clothing</label>
+    <br>
+    <input type="checkbox" name="hobi" id="home_decor" value="Home Decor">
+    <label for="home_decor">Home Decor</label>
+</div>
+<br>
+<div>
+    <label for="">Country:</label>
+    <br>
+    <select name="favorite countries" id="f_countries">
+        <option value="USA">USA</option>
+        <option value="Germany">Germany</option>
+        <option value="France">France</option>
+        <option value="Türkiye">Türkiye</option>
+        <option value="Greece">Greece</option>
+    </select>
+</div>
+<br>
+<div>
+    <label for="DofB">Date of Birth:</label>
+    <br>
+    <input type="date" name="your date" id="DofB">
+</div>
+<br>
+<div>
+    <label for="">Additional Comments</label>
+    <br>
+    <textarea name="add_comments" id="add_comm" style="resize: none;"></textarea>
+</div>
+<br>
+<div>
+    <label for="sifre">Create a Password:</label>
+    <br>
+    <input type="password" id="sifre" name="your_password" required>
+</div>
+<br>
+<div>
+    <label for="dosya">Profile Picture:</label>
+    <br>
+    <fieldset>
+        <input type="file" name="secilen_dosya" id="dosya">
+    </fieldset>
+</div>
+<br>
+<div class="footer">
+    <input type="submit" value="Submit" id="submit">
+    <input type="reset" name="Reset" id="reset">
+</div>
+</form>
+</body>
+</html>
