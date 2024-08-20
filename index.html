@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Code Challenge</title>
 </head>
 <body>
+    <div class="container">
     <form action="result.html" method="get">
+
     <h2>User Information Form</h2>
 
     <div>
@@ -20,7 +23,7 @@
         <input type="email" name="Kullanici emaili" id="eposta">
     </div>
     <div>
-        <label for="">Gender:</label>
+        <label for="gender">Gender:</label>
         <br>
     <input type="radio" name="gender" id="gender1" value="Male">
     <label for="gender1">Male</label>
@@ -31,7 +34,6 @@
     <input type="radio" name="gender" id="gender3" value="Other">
     <label for="gender3">Other</label>
 </div>
-<br>
 <div>
     <label for="">Interests:</label>
     <br>
@@ -47,7 +49,6 @@
     <input type="checkbox" name="hobi" id="home_decor" value="Home Decor">
     <label for="home_decor">Home Decor</label>
 </div>
-<br>
 <div>
     <label for="">Country:</label>
     <br>
@@ -59,7 +60,6 @@
         <option value="Greece">Greece</option>
     </select>
 </div>
-<br>
 <div>
     <label for="DofB">Date of Birth:</label>
     <br>
@@ -67,11 +67,10 @@
 </div>
 <br>
 <div>
-    <label for="">Additional Comments</label>
+    <label for="">Additional Comments:</label>
     <br>
-    <textarea name="add_comments" id="add_comm" style="resize: none;"></textarea>
+    <textarea name="add_comments" id="add_comm" style="resize: none"></textarea>
 </div>
-<br>
 <div>
     <label for="sifre">Create a Password:</label>
     <br>
@@ -81,15 +80,13 @@
 <div>
     <label for="dosya">Profile Picture:</label>
     <br>
-    <fieldset>
         <input type="file" name="secilen_dosya" id="dosya">
-    </fieldset>
 </div>
-<br>
-<div class="footer">
+<div class="buttons">
     <input type="submit" value="Submit" id="submit">
     <input type="reset" name="Reset" id="reset">
 </div>
 </form>
+</div>
 </body>
 </html>

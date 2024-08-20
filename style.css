@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 40%;
+    border: 2px solid black;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 15px 10px gray;
+}
+
+#fname,#eposta,#f_countries,#DofB,#add_comm,#sifre,#dosya{
+    width: 100%;
+}
+
+#dosya{
+    border: 1px solid gray;
+    width: 100%;
+    padding: 5px;
+}
+
+input,select,textarea{
+    padding: 8px;
+    border-radius: 5px;
+}
+
+div{
+    margin-top: 7px;
+}
+
+h2{
+    text-align: center;
+}
+
+.buttons{
+    text-align: center;
+}
+
+#submit{
+    background-color: #59b057;
+    color: white;
+    border: none;
+    border-radius: 11px;
+    margin: 5px;
+    padding: 10px 20px;
+
+}
+
+#reset{
+    background-color: #eb2b3c;
+    color: white;
+    border: none;
+    border-radius: 11px;
+    margin: 5px;
+    padding: 10px 20px;
+}
+
+textarea{
+    /* resize: none; */
+}
